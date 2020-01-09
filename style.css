@@ -66,6 +66,7 @@ project-tile {
   width: 100vw;
 }
 #navbar {
+display: block;
 top: 0;
 left: 0;
 background-image: linear-gradient(to bottom, #d9d9d9, #e6e6e6);
