@@ -69,7 +69,7 @@ top: 0;
 left: 0;
 background-image: linear-gradient(to bottom, #d9d9d9, #e6e6e6);
 padding: 4vh;
-text-align: right;
+text-align: center;
 width: 100%;
 position: fixed;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
