@@ -1,14 +1,15 @@
 <style>
 .project-tile {
   padding: .5vw;
-  margin-left: 31vw;
-  margin-right: 31vw;
-  margin-top: 1vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 5vh;
   margin-bottom: 5vh;
   text-align: center;
-  background-color: #262626;
+  background-image: linear-gradient(to right, #0d0d0d, #262626);
   border: 1px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 .project-title {
   text-decoration: none;
@@ -211,7 +212,7 @@ font-family: "Courier New", Courier, monospace;
 }
 #about-section {
   display: flex;
-  background-image: url("http://drive.google.com/uc?export=view&id=1ODGqVstbuvK_gm59QDzdNZno4sGdyx8R");
+  background: url("http://drive.google.com/uc?export=view&id=1ODGqVstbuvK_gm59QDzdNZno4sGdyx8R");
   background-size: cover;
   justify-content: center;
   align-items: center;
