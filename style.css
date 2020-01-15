@@ -188,65 +188,6 @@ font-family: "Courier New", Courier, monospace;
   width: 80vw;
   height: 100vh;
 }
-@media (max-width: 1350px){
-  #projects{
-   margin: 0;
-   flex-direction: column;
-   height: 200vh;
-   padding-top: 3vh;
-   }
-  .proj-pic {
-  max-width: 36vw;
-  height: auto;
-}
-  .project-tile {
-  padding: .5vw;
-  margin-left: 31vw;
-  margin-right: 31vw;
-  margin-top: 1vh;
-  margin-bottom: 5vh;
-  text-align: center;
-  background-color: #262626;
-  border: 1px solid black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#about-section {
-  display: flex;
-  background: url("http://drive.google.com/uc?export=view&id=14I71SVmFatZqyEdIXqmxKDwJ4MSJW8ZH");
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh; 
-  font-size: 50vh;
-  width: 100vw;  
-  }
-  #about-img {
-  margin-top: -5vh;
-  margin-bottom: 15vh;
-  width: 30vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-  #contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  background-image: linear-gradient(to bottom, #d9d9d9, #e6e6e6);
-  height: 10vh; 
-  font-size: 50vh;
-  width: 100vw;
-    padding-bottom: 10vh;
-}
-  .contact-item-div {
-   font-family: "Courier New", Courier, monospace;Palatino, serif;
-  font-size: 3vw;
-  margin-bottom: 1vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
-}
-  
-}
-
 #show-all {
   text-align: center;
   padding-left: 3vw;
@@ -311,5 +252,62 @@ font-family: "Courier New", Courier, monospace;
   margin-right: 2vw;
   font-size: 1vw;
   font-family: "Courier New", Courier, monospace;Palatino, serif;
+}
+@media (max-width: 1350px){
+  #projects{
+   margin: 0;
+   flex-direction: column;
+   height: 200vh;
+   padding-top: 3vh;
+   }
+  .proj-pic {
+  max-width: 36vw;
+  height: auto;
+}
+  .project-tile {
+  padding: .5vw;
+  margin-left: 31vw;
+  margin-right: 31vw;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  background-color: #262626;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#about-section {
+  display: flex;
+  background: url("http://drive.google.com/uc?export=view&id=14I71SVmFatZqyEdIXqmxKDwJ4MSJW8ZH");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; 
+  font-size: 50vh;
+  width: 100vw;  
+  }
+  #about-img {
+  margin-top: -5vh;
+  margin-bottom: 15vh;
+  width: 30vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  #contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-image: linear-gradient(to bottom, #d9d9d9, #e6e6e6);
+  height: 10vh; 
+  font-size: 50vh;
+  width: 100vw;
+    padding-bottom: 10vh;
+}
+  .contact-item-div {
+   font-family: "Courier New", Courier, monospace;Palatino, serif;
+  font-size: 3vw;
+  margin-bottom: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}  
 }
 </style>
