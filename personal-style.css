@@ -90,6 +90,10 @@ grid-row-gap: 20px;
 grid-template-areas: ". ." ". .";
 margin-bottom: 10%;
 }
+.project-link{
+	text-decoration: none;
+	color: black;
+}
 .container-contact{
 display: grid;
 grid-column-gap: 50px;
@@ -297,7 +301,7 @@ html {
 
 
 /*MEDIA QUERYYYYY*/
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 768px) {
 .menu {
 display: block;
 padding: 0;
