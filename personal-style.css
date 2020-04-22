@@ -297,7 +297,7 @@ html {
 
 
 /*MEDIA QUERYYYYY*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 812px) {
 .menu {
 display: block;
 padding: 0;
